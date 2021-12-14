@@ -1,0 +1,44 @@
+nav {
+    border-style: solid;
+    border-width: medium;
+    font-family: 'Concert One', cursive;
+    color: yellow;
+    border-color: cadetblue;
+    border-radius: 2em;
+    padding: 1em;
+}
+nav a {
+    padding-left:3em;
+    color: yellow;
+}
+
+.row{display:flex;
+
+}
+.left-column{
+    height: 20vh;
+     flex:80%
+
+}
+.right-column{
+    flex:20%;
+}
+.main-heading{
+    color: Yellow; 
+    position: relative;
+    font-size:2.5em;
+    font-family: 'Concert One', cursive;
+}
+.another-heading{
+    color: crimson;
+    font-size:1em;
+}
+#First-Logo-Name{
+    font-size: 2.3em;
+    font-family: 'Times New Roman', Times, serif;
+     color:brown;
+}
+#Second-Logo-Name{
+    font-size:1.5em; 
+    color:brown;
+}

@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> About Gym Club</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+<!--This is the google font link necessary to insert for font-->
+<!--Where there is styling by using name and for division and headings giving them class put here all-->
+<style>
+    nav {
+        border-style: solid;
+        border-width: medium;
+        font-family: 'Concert One', cursive;
+        color: yellow;
+        border-color: cadetblue;
+        border-radius: 2em;
+        padding: 1em;
+    }
+    nav a {
+        padding-left:3em;
+        color: yellow;
+    }
+   
+    .row{display:flex;
+
+    }
+    .left-column{
+        height: 20vh;
+         flex:80%
+
+    }
+    .right-column{
+        flex:20%;
+    }
+    .main-heading{
+        color: Yellow; 
+        position: relative;
+        font-size:2.5em;
+        font-family: 'Concert One', cursive;
+    }
+    .another-heading{
+        color: crimson;
+        font-size:1em;
+    }
+    #First-Logo-Name{
+        font-size: 2.3em;
+        font-family: 'Times New Roman', Times, serif;
+         color:brown;
+    }
+    #Second-Logo-Name{
+        font-size:1.5em; 
+        color:brown;
+    }
+
+</style>
+
+    </head>
+    <body style="background-image: url(images/Best-gyms-in-jaipur-e1565704535975.jpg);  background-size:100% ; background-repeat: no-repeat;">
+        <!--Vrti in body we use background image properties so check it practice it-->
+        <!--Section1]-->
+        <div style="display: flex;">
+            <div style="flex: 40%;">
+                <nav style="">
+       <span id="First-Logo-Name" >HB  </span> 
+       <span id="Second-Logo-Name">Fitness</span>
+       
+            <a href="home.html">
+                Home
+            </a>
+   
+            <a href="password.html" style="" >
+                Members
+            </a>
+        </nav>
+
+            </div>
+            <div class="Logo" style="flex: 60%;height: 10vh; background-image:url(images/Logo.png) ; background-position: right; position:relative ; background-size:15% ; background-repeat: no-repeat;">
+
+            </div>
+
+        </div>
+       
+        <!--Section2] Header rows-->
+        
+        <div class="row" > <!-- This div is use to 2 columns and flex is used to make it with measurement-->
+            <div class="left-column" > <!-- this is left column with 40% of screen-->
+                <h1 class="main-heading">About Gym Club!</h1><!--If we need to wirte in left column then write in this div-->
+                <h2 class="another-heading"> When LIFE gives you pain go to 'GYM'</h2>
+            </div>
+            <div class="right-column" >
+            <!--This is the right column of flex 60%-->
+            </div>
+            
+        </div>
+        <!--Section3] Content area-->
+       
+        
+       
+
+    </body>
+</html>
